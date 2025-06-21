@@ -1,0 +1,16 @@
+{
+  "api_keys": {
+    "gemini": "YOUR_GEMINI_API_KEY",
+    "google_cloud": "YOUR_GOOGLE_CLOUD_API_KEY"
+  },
+  "google_cloud_project": "YOUR_GOOGLE_CLOUD_PROJECT_ID",
+  "validation": {
+    "min_continuity_score": 0.7,
+    "max_problem_frames": 3,
+    "color_difference_threshold": 0.3
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "scene_validator.log"
+  }
+}
